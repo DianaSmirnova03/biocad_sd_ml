@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1Y-RD_Vd3MKe36tSkVC8ZSXZGLH1zrwT8
 """
 
-import pandas as pd
+import pandas as pd 
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -17,6 +17,7 @@ import matplotlib.pyplot as plt
 
 def load_data():
     df = pd.read_csv('skempi_v2.csv', delimiter=';') #открываем данные с SKEMPI 2.0
+    
     return df
 
 def preprocess_data(df):
